@@ -11,7 +11,7 @@ import os
 from pathlib import Path
 current_directory = Path(__file__).parent #Get current directory
 file = open(os.path.join(current_directory, 'vehicle_detection.h5')
-#model = tf.keras.models.load_model.load(file) 
+model = tf.keras.models.load_model.load(file) 
 
 #model = tf.keras.models.load_model('/home/adesoji/hh/curacel/vehicle_detection.h5')
 
