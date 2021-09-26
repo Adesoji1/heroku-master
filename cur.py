@@ -1,20 +1,22 @@
 import tensorflow as tf
 import h5py as h5py
+import streamlit as st
 #from tensorflow.keras.models import Model 
 
 #import os
 #os.environ["CUDA_VISIBLE_DEVICES"] = "-1" #To disable run on GPU
 
 #for relative path
-#import os
-#from pathlib import Path
-#current_directory = Path(__file__).parent #Get current directory
-#file = open(os.path.join(current_directory, 'vehicle_detection.h5')
+import os
+from pathlib import Path
+current_directory = Path(__file__).parent #Get current directory
+file = open(os.path.join(current_directory, 'vehicle_detection.h5')
 #model = tf.keras.models.load_model.load(file) 
 
-model = tf.keras.models.load_model('/home/adesoji/hh/curacel/vehicle_detection.h5')
+#model = tf.keras.models.load_model('/home/adesoji/hh/curacel/vehicle_detection.h5')
 
-import streamlit as st
+
+
 st.write("""
          # Bad or Good cars Prediction
          """
