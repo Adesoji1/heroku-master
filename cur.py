@@ -16,7 +16,6 @@ st.write("""
          )
 st.write("This is a simple image classification web app to predict Bad or Good cars")
 file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
-
 import cv2
 from PIL import Image, ImageOps
 import numpy as np
