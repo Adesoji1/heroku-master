@@ -56,11 +56,12 @@ else:
      else:
           np.argmax(prediction) >=0.02
           st.write("It is a Good Car !")
+         
+          st.text("Probability <0.01: Damaged Car, >0.02: It is a Good car!")
+          st.write(prediction)
     
         
     
-     st.text("Probability <0.01: Damaged Car, >0.02: It is a Good car!")
-     st.write(prediction)
 
         
       
