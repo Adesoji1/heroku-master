@@ -35,6 +35,11 @@ load the model and make inference for prediction.
 
 
 
+sample of prediction image at : https://ibb.co/pbwNmph
+
+
+
+
 
 
 
