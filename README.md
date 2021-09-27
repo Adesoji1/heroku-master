@@ -16,7 +16,7 @@ Type streamlit run cur.py
 
 Proceed to The opened website to upload an accident car or  A good car to predict the state of the car.
 
-Note, it's a test Environment and you can't control the accuracy.
+Note, it's a test Environment and you can't control the accuracy but the predictions in the test environment are correct.
 
 
 
