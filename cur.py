@@ -48,18 +48,19 @@ else:
     st.image(image, use_column_width=True)
     prediction = import_and_predict(image, model)
     
-    if np.argmax(prediction) == 0:
-         st.write("It is a Damaged car!")
     
-    else:
-        np.argmax(prediction) == 1
-        st.write("It is a Good Car !")
+     if np.argmax(prediction) <=0.01:
+        st.write("If is a Bad  car!")
+
+    
+     else:
+          np.argmax(prediction) >=0.02
+          st.write("It is a Good Car !")
     
         
     
-    st.text("Probability 0: Damaged Car, 1: It is a Good car!")
-    st.write(prediction)
-
+     st.text("Probability <0.01: Damaged Car, >0.02: It is a Good car!")
+     st.write(prediction)
 
         
       
